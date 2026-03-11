@@ -138,6 +138,7 @@ tests/
 
 ## Notes
 
-- This is an API-only backend. The `web/` folder is not used by the current backend server.
+- This repository is backend-only.
 - The chatbot does not guess answers outside the supported payroll fields.
 - HR requests are only stored after the user confirms they want to be put in touch with HR.
+
