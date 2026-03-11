@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f4f6;
+  color: #111827;
+}
+
+.container {
+  max-width: 880px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.subtitle {
+  color: #4b5563;
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-top: 0.5rem;
+  margin-bottom: 0.25rem;
+  font-size: 0.9rem;
+}
+
+input,
+textarea,
+button {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.6rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+}
+
+button {
+  margin-top: 0.75rem;
+  border: none;
+  background: #2563eb;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.log {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.msg {
+  padding: 0.6rem;
+  border-radius: 8px;
+}
+
+.msg.user {
+  background: #dbeafe;
+}
+
+.msg.bot {
+  background: #ecfeff;
+}
+
+.meta {
+  color: #374151;
+  font-size: 0.85rem;
+}
